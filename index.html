@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Professional History</title>
+    <meta name="description" content="私の職務経歴と自己紹介を紹介するポートフォリオサイトです。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Noto+Sans+JP:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">PORTFOLIO.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hello, I'm <span class="text-accent">User Name</span>.</h1>
+                <p class="hero-subtitle">Software Engineer & Creative Problem Solver</p>
+                <p class="hero-description">
+                    シンプルで洗練されたコードとデザインを追求しています。<br>
+                    ユーザー体験を第一に考えたプロダクト開発が得意です。
+                </p>
+                <a href="#experience" class="btn btn-primary">View Experience</a>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-box"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about container section-padding">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        これまでのキャリアを通じて、Webアプリケーション開発からバックエンドシステムの設計まで幅広く経験してきました。
+                        新しい技術への好奇心が強く、常に効率的で保守性の高いコードを書くことを心がけています。
+                    </p>
+                    <p>
+                        趣味は写真撮影とカフェ巡り。デザインのインスピレーションを日常から得ています。
+                    </p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience container section-padding">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <!-- Job 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3 class="job-title">Senior Frontend Engineer</h3>
+                        <h4 class="company-name">Tech Company A</h4>
+                        <p class="job-description">
+                            大規模なEコマースプラットフォームのフロントエンドリニューアルを主導。
+                            React/Next.jsを用いたパフォーマンス改善と、デザインシステムの構築を担当。
+                        </p>
+                        <ul class="tech-stack">
+                            <li>React</li>
+                            <li>TypeScript</li>
+                            <li>Next.js</li>
+                            <li>AWS</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2019 - 2022</div>
+                    <div class="timeline-content">
+                        <h3 class="job-title">Web Developer</h3>
+                        <h4 class="company-name">Creative Agency B</h4>
+                        <p class="job-description">
+                            クライアント企業のコーポレートサイトやキャンペーンサイトの制作・開発。
+                            WordPressを用いたCMS構築や、WebGLを使用したインタラクティブな表現を実装。
+                        </p>
+                        <ul class="tech-stack">
+                            <li>JavaScript</li>
+                            <li>WebGL</li>
+                            <li>PHP</li>
+                            <li>WordPress</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Job 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2017 - 2019</div>
+                    <div class="timeline-content">
+                        <h3 class="job-title">Junior Engineer</h3>
+                        <h4 class="company-name">Start-up C</h4>
+                        <p class="job-description">
+                            自社サービスのバックエンドAPI開発および運用保守。
+                            Python/Djangoを用いたRESTful APIの設計・実装。
+                        </p>
+                        <ul class="tech-stack">
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="certifications container section-padding">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-item">
+                    <h3 class="cert-name">AWS Certified Solutions Architect</h3>
+                    <p class="cert-issuer">Amazon Web Services</p>
+                    <p class="cert-date">2023</p>
+                </div>
+                <div class="cert-item">
+                    <h3 class="cert-name">Google Professional Cloud Architect</h3>
+                    <p class="cert-issuer">Google Cloud</p>
+                    <p class="cert-date">2022</p>
+                </div>
+                <div class="cert-item">
+                    <h3 class="cert-name">Certified ScrumMaster (CSM)</h3>
+                    <p class="cert-issuer">Scrum Alliance</p>
+                    <p class="cert-date">2021</p>
+                </div>
+                <div class="cert-item">
+                    <h3 class="cert-name">TOEIC 900</h3>
+                    <p class="cert-issuer">IIBC</p>
+                    <p class="cert-date">2020</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact container section-padding">
+            <div class="contact-box">
+                <h2 class="section-title">Get In Touch</h2>
+                <p>お仕事のご依頼やご相談は、お気軽に下記よりご連絡ください。</p>
+                <a href="mailto:hello@example.com" class="btn btn-outline">Contact Me</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
